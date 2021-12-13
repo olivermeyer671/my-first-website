@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav ul {
+    margin: 0%;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255,255,255,.6);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-image: url("images/algonquin.JPG");
+    background-size:cover;
+    background-position: middle;
+}
+
+.my-name {
+    text-align: center;
+    margin: 0%;
+    font-size: 4em;
+    font-weight: normal;
+
+}
+
+.my-name-large {
+    font-size: 9em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0% auto;
+    padding: 0% 1.5em;
+}
+
+.section-header {
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-footer {
+    background-color: yellow;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
